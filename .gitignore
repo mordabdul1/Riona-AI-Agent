@@ -63,16 +63,12 @@ web_modules/
 
 # Output of 'npm pack'
 *.tgz
-.vscode
 .DS_Store
 # Yarn Integrity file
 .yarn-integrity
 img.js
 # dotenv environment variables file
 twitter.js
-.env
-.env.test
-.env.production
 DONATIONS_PRIVATE.md
 src/config/accounts.json
 
@@ -110,7 +106,6 @@ dist
 .tern-port
 
 # VS Code settings
-.vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
@@ -132,3 +127,4 @@ public/build
 # Plop js template files
 .plop-templates
 logged_in.png
+config.bat
